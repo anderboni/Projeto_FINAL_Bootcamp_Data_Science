@@ -5,22 +5,28 @@ Projeto de conclusão elaborado como parte integrante do Bootcamp de Data Scienc
 
 No presente repositório inserimos o notebook e os dados utilizados na análise realizada para elaboração do PROJETO FINAL do curso, no caso o Bootcamp de Data Science Aplicada da Alura. Um maior detalhamento acerca do projeto poderá ser obtido neste reumo e por meio dos links indicados.
 
-## Motivação:
+---
+## 1-Motivação:
 
-Inicialmente o que nos motiva a realizar este projeto é o próprio desafio proposto no Bootcamp de Data Science da Alura, sendo esta motivação inicial amplificada substancialmente em razão da possibilidde de contribuir com um projeto de cunho prático de um grande hospital. A isso se soma o fato de trabalhar com uma temática que é o foco central da vida de todos, em âmbito mundial, onde a proposta é a tentativa de melhorar uma previsão que, se bem implementada, poderá contribuir para o salvamento de vidas. Embora nosso conhecimento ainda seja inicial e básico a respeito do assunto "Machine Learning", de maneira especifica, e "Data Science", de maneira geral, certamente tentamos fazer o melhor, embora saibamos que muito há para ser melhorado no projeto e que há outras formas de trabalhar a questão proposta.
+Conforme exposto no próprio notebook, inicialmente o que nos motiva a realizar este projeto é o próprio desafio proposto no Bootcamp de Data Science da Alura, sendo esta motivação inicial amplificada substancialmente em razão da possibilidde de contribuir com um projeto de cunho prático de um grande hospital. A isso se soma o fato de trabalhar com uma temática que é o foco central da vida de todos, em âmbito mundial, onde a proposta é a tentativa de melhorar uma previsão que, se bem implementada, poderá contribuir para o salvamento de vidas. Embora nosso conhecimento ainda seja inicial e básico a respeito do assunto "Machine Learning", de maneira especifica, e "Data Science", de maneira geral, certamente tentamos fazer o melhor, embora saibamos que muito há para ser melhorado no projeto e que há outras formas de trabalhar a questão proposta.
 
 ---
-## 1-Dados
+## 2-Dados
 
 Os dados para este projeto foram obtidos no endereço https://www.kaggle.com/S%C3%ADrio-Libanes/covid19, tendo sido disponibilizados pelo Hospital Sirio Libanes, por meio da plataforma KAGGLE.
 
 DETALHAR.............
 
 ---
-## 2-Projeto
-O objetivo do projeto é, conforme proposto pelo citado hospital, montar uma máquina preditiva com a finalidade de auxiliar na previsão de quais pacientes necessitarão ser encaminhados à unidade de terapia intensiva (UTI) e, dessa forma, contribuir com o manejamento de de leitos de UTI do hospital, conforme a necessidade, sendo estas previsões realizadas a partir dos dados clínicos individuais disponíveis de alguns pacientes. É importante mencionar que o anonimato destes pacientes foi garantido pelo hospital.
+## 3-Projeto
+O objetivo do projeto é, conforme proposto pelo citado hospital, montar uma máquina preditiva com a finalidade de auxiliar na previsão de quais pacientes necessitarão ser encaminhados à unidade de terapia intensiva (UTI) e, dessa forma, contribuir com o manejamento de leitos de UTI do hospital, conforme a necessidade, sendo estas previsões realizadas a partir dos dados clínicos individuais disponíveis de alguns pacientes. É importante mencionar que o anonimato destes pacientes foi garantido pelo hospital.
 
-O projeto foi dividido conforme abaixo:
+Basicamente, conforme disponibilizado nas tarefas (tasks) do Kaggle, seria:
+
+* Prever admissão na UTI de casos COVID-19 confirmados;
+* Prever NÃO admissão à UTI de casos COVID-19 confirmados.
+
+O presente projeto foi dividido conforme abaixo, a fim de faciliar a análise e testes dos modelos:
 
 * Importação dos dados;
 * Análise exploratória dos dados;
@@ -28,14 +34,9 @@ O projeto foi dividido conforme abaixo:
 * Conclusão
 * Referências
 
-Importante mencionar que os modelos foram testados de diferentes formas, a partir de técnicas e métodos diversos, com a finalidade de verificar o que apresentasse a melhor acurácia, e que proporcionasse maior eficiência. Foi por esse motivo que, na 2ª Fase do projeto, optamos por eliminar diversas colunas que possuíam alta correçaõa.
+Importante mencionar que os modelos foram testados de diferentes formas, a partir de técnicas e métodos diversos, com a finalidade de verificar o que apresentasse a melhor acurácia e que proporcionasse maior eficiência. Foi por esse motivo também que, na 2ª Fase do projeto, optamos por eliminar diversas colunas que possuíam alta correlação. abrangendo assim diversas formas de testes, inclusive com a modificação nos dados.
 
-No decorrer do projeto há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das acções tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link https://github.com/anderboni/Projeto_FINAL_Bootcamp_Data_Science/blob/main/Projeto_FINAL.ipynb
-
----
-## 3-Hipótese
-
-A capital do Pará, por estar situada em uma região que proporciona temperatura mais elevada e melhor distribuída ao longo do ano, pode apresentar aumentos mais expressivos de casos e mortes relacionadas ao covid-19 quando comparada com a capital do Rio Grande do Sul, a qual é acometida por temperaturas mais baixas, em maior período do ano. A possibilidade de que isso aconteça está embasada na premissa de que uma temperatura mais alta pode estimular as pessoas a uma maior circulação nas ruas, o que pode acabar impactando os níveis de contaminação.
+No decorrer do projeto há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das ações tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link https://github.com/anderboni/Projeto_FINAL_Bootcamp_Data_Science/blob/main/Projeto_FINAL.ipynb
 
 ---
 ## 4-Conclusões
