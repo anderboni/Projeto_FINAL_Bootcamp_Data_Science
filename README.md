@@ -30,7 +30,7 @@ O projeto foi dividido conforme abaixo:
 
 Importante mencionar que os modelos foram testados de diferentes formas, a partir de técnicas e métodos diversos, com a finalidade de verificar o que apresentasse a melhor acurácia, e que proporcionasse maior eficiência. Foi por esse motivo que, na 2ª Fase do projeto, optamos por eliminar diversas colunas que possuíam alta correçaõa.
 
-No decorrer do projeto há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das acções tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link ................
+No decorrer do projeto há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das acções tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link https://github.com/anderboni/Projeto_FINAL_Bootcamp_Data_Science/blob/main/Projeto_FINAL.ipynb
 
 ---
 ## 3-Hipótese
