@@ -1,32 +1,24 @@
-# Projeto_FINAL_Bootcamp_Data_Science
+# Projeto FINAL - Bootcamp Data Science
 
 Projeto de conclusão elaborado como parte integrante do Bootcamp de Data Science da Alura
 ---
 
-No presente repositório inserimos o notebook e os dados utilizados na análise realizada para elaboração do PROJETO 3, do Módulo 3, do Bootcamp de Data Science Aplicada da Alura. Um maior detalhamento acerca do projeto poderá ser obtido a seguir.
+No presente repositório inserimos o notebook e os dados utilizados na análise realizada para elaboração do PROJETO FINAL do curso, no caso o Bootcamp de Data Science Aplicada da Alura. Um maior detalhamento acerca do projeto poderá ser obtido neste reumo e por meio dos links indicados.
+
+##Motivação:
+
+Inicialmente o que nos motiva a realizar este projeto é o próprio desafio proposto no Bootcamp de Data Science da Alura, sendo esta motivação inicial amplificada substancialmente em razão da possibilidde de contribuir com um projeto de cunho prático de um grande hospital. A isso se soma o fato de trabalhar com uma temática que é o foco central da vida de todos, em âmbito mundial, onde a proposta é a tentativa de melhorar uma previsão que, se bem implementada, poderá contribuir para o salvamento de vidas. Embora nosso conhecimento ainda seja inicial e básico a respeito do assunto "Machine Learning", de maneira especifica, e "Data Science", de maneira geral, certamente tentamos fazer o melhor, embora saibamos que muito há para ser melhorado no projeto e que há outras formas de trabalhar a questão proposta.
 
 ---
 ## 1-Dados
 
-https://www.kaggle.com/S%C3%ADrio-Libanes/covid19
+Os dados para este projeto foram obtidos no endereço https://www.kaggle.com/S%C3%ADrio-Libanes/covid19, tendo sido disponibilizados pelo Hospital Sirio Libanes, por meio da plataforma KAGGLE.
 
-Os dados utilizados neste projeto são provenientes do portal BRASIL.IO, especificamente a partir dos links abaixo:
-
-* Dados relativos à cidade de Porto Alegre, RS: https://brasil.io/dataset/covid19/caso_full/?state=RS&city=Porto+Alegre&is_repeated=False&format=csv
-
-* Dados relativos à cidade de Belém, PA: https://brasil.io/dataset/covid19/caso_full/?state=PA&city=Bel%C3%A9m&is_repeated=False&format=csv
-
-As tabelas em CSV utilizadas foram alocadas na pasta DADOS, neste mesmo repositório do GitHub. 
-
-Em ambos os casos os dados foram filtrados para FALSE no que tange a dados repetidos.
-
-Dados de março de 2020 até junho de 2021. Importação dos dados feita em 30 de Junho de 2021 às 21:30:00.
+DETALHAR.............
 
 ---
 ## 2-Projeto
-Para esta análise escolhemos duas capitais com número semelhante de habitantes (em torno de 1.500.000 habitantes), porém em regiões opostas do Brasil, a fim trabalhar em uma tentativa de avaliar o impacto das diferenças climáticas e regionais nos casos de contaminação por coronavírus (covid-19) e mortes relacionadas.
-
-Os comentários relativos a análise dos dados são realizados ao longo do notebook, a partir do qual surgem algumas hipóteses e conclusões prévias.
+O objetivo do projeto é, conforme proposto pelo citado hospital, montar uma máquina preditiva com a finalidade de auxiliar na previsão de quais pacientes necessitarão ser encaminhados à unidade de terapia intensiva (UTI) e, dessa forma, contribuir com o manejamento de de leitos de UTI do hospital, conforme a necessidade, sendo estas previsões realizadas a partir dos dados clínicos individuais disponíveis de alguns pacientes. É importante mencionar que o anonimato destes pacientes foi garantido pelo hospital.
 
 ---
 ## 3-Hipótese
