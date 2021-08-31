@@ -3,17 +3,19 @@
 Projeto de conclusão elaborado como parte integrante do Bootcamp de Data Science da Alura
 ---
 
-No presente repositório inserimos o notebook e os dados utilizados na análise realizada para elaboração do PROJETO FINAL do curso, no caso o Bootcamp de Data Science Aplicada da Alura. Um maior detalhamento acerca do projeto poderá ser obtido neste reumo e por meio dos links indicados.
+No presente repositório inserimos o notebook e os dados utilizados na análise realizada para elaboração do PROJETO FINAL do Bootcamp de Data Science Aplicada da Alura. Um maior detalhamento acerca do projeto poderá ser obtido neste resumo e por meio dos links indicados.
 
 ---
-## 1-Motivação:
+## 1-Motivação
 
-Conforme exposto no próprio notebook, inicialmente o que nos motiva a realizar este projeto é o próprio desafio proposto no Bootcamp de Data Science da Alura, sendo esta motivação inicial amplificada substancialmente em razão da possibilidde de contribuir com um projeto de cunho prático de um grande hospital. A isso se soma o fato de trabalhar com uma temática que é o foco central da vida de todos, em âmbito mundial, onde a proposta é a tentativa de melhorar uma previsão que, se bem implementada, poderá contribuir para o salvamento de vidas. Embora nosso conhecimento ainda seja inicial e básico a respeito do assunto "Machine Learning", de maneira especifica, e "Data Science", de maneira geral, certamente tentamos fazer o melhor, embora saibamos que muito há para ser melhorado no projeto e que há outras formas de trabalhar a questão proposta.
+Conforme exposto no próprio notebook, inicialmente o que nos motiva a realizar este projeto é o próprio desafio proposto no Bootcamp de Data Science da Alura, sendo esta motivação inicial amplificada substancialmente em razão da possibilidde de contribuir com um projeto de cunho prático de um grande hospital. A isso se soma o fato de trabalhar com uma temática que é o foco central da vida de todos atualmente, em âmbito mundial, onde a proposta é a tentativa de melhorar uma previsão que, se bem implementada, poderá contribuir para o salvamento de vidas. Embora nosso conhecimento ainda seja inicial e básico a respeito do assunto "Machine Learning", de maneira especifica, e "Data Science", de maneira geral, certamente tentamos fazer o melhor, embora saibamos que muito há para ser melhorado no projeto e que há outras formas de trabalhar a questão proposta.
 
 ---
 ## 2-Dados
 
 Os dados para este projeto foram obtidos no endereço https://www.kaggle.com/S%C3%ADrio-Libanes/covid19, tendo sido disponibilizados pelo Hospital Sirio Libanes, por meio da plataforma KAGGLE.
+
+![image](https://user-images.githubusercontent.com/82055876/131425878-52eca3fe-3aa6-4fbf-b6f2-fedd1ea6cab4.png)
 
 DETALHAR.............
 
