@@ -13,19 +13,23 @@ Conforme exposto no próprio notebook, inicialmente o que nos motiva a realizar 
 ---
 ## 2-Dados
 
+![image](https://user-images.githubusercontent.com/82055876/131427160-89a394ef-6de6-45d1-8177-e7adb35c52ce.png)
+
 Os dados para este projeto foram obtidos no endereço https://www.kaggle.com/S%C3%ADrio-Libanes/covid19, tendo sido disponibilizados pelo Hospital Sirio Libanes, por meio da plataforma KAGGLE.
 
 O gráfico abaixo ilustra a urgente necessidade de "achatamento da curva", uma das razões para a elaboração e implementação deste projeto, a fim de evitar o colapso do sistema de saúde. Os dados individuais de pacientes, disponibilizados pelo hospital, serão utilizados em detrimento de dados epidemiológicos e populacionais, como normalmente empregados para avaliações e estimativas acerca da sobrecarga do sistema.
 
 ![image](https://user-images.githubusercontent.com/82055876/131425878-52eca3fe-3aa6-4fbf-b6f2-fedd1ea6cab4.png)
 
-Seguem outras informações obtidas acerca do dataset, disponibilizadas no site KAGGLE:
+Seguem outras informações obtidas acerca do *dataset*, disponibilizadas no site KAGGLE:
 
-Os Dados
+### Os Dados
+
 Saída de rótulo
 A UTI deve ser considerada, como a primeira versão deste conjunto de dados, a variável alvo.
 
-Conceito de janela
+### Conceito de janela
+
 Tivemos o cuidado de incluir cenários da vida real com janela de eventos e dados disponíveis.
 Os dados foram obtidos e agrupados
 
@@ -49,11 +53,13 @@ Exemplos:
 ![image](https://user-images.githubusercontent.com/82055876/131426690-68ad6e61-2b5b-4f87-8e6b-aeac936ed077.png)
 
 
-Dataset
+### Dataset
+
 Este conjunto de dados contém dados anonimizados do Hospital Sírio-Libanês, São Paulo e Brasília. Todos os dados foram anonimizados seguindo as melhores práticas e recomendações internacionais.
 Os dados foram limpos e dimensionados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
 
-Dados disponíveis
+### Dados disponíveis
+
 - Informações demográficas do paciente (03)
 - Doenças agrupadas anteriores do paciente (09)
 - Resultados sanguíneos (36)
