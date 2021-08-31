@@ -82,7 +82,7 @@ No decorrer do estudo há outras etapas que fizeram parte do projeto, com respec
 As conclusões que obtivemos a partir da análise dos dados são apresentadas ao final do notebook, entretanto convém advertir que são parciais. Outros estudos posteriores deverão ser realizados para que seja possível aprimorar os modelos e ampliar a eficácia e aplicabilidade dos mesmos.
 
 ---
-## 5-Continuidade e Considerações Finais
+## 5-Considerações Finais
 
 O presente projeto ainda carece de análises mais profundas e mantêm-se em aberto para futuras alterações e aprimoramento.
 
