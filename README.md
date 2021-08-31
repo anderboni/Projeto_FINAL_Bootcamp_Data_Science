@@ -27,16 +27,11 @@ Saída: ICU (que significa UTI) é a variável alvo.
 
 Conceito de janela (window): foi tomado o cuidado de incluir cenários da vida real nos eventos e dados disponíveis.
 
-Os dados foram obtidos e agrupados por:
-
-* paciente
-- encontro com paciente 
-- agregado por janelas em ordem cronológica, conforme segue:
+Os dados foram obtidos e agrupados conforme o encontro com paciente, tendo sido agrupados por janelas em ordem cronológica, conforme segue:
 
 ![image](https://user-images.githubusercontent.com/82055876/131428441-2b1cc541-d670-4ad6-afb0-14b3bb0f63ed.png)
 
-
-* Tomou-se o cuidado para NÃO usar os dados quando a variável alvo estiver presente, pois não se sabe a ordem do evento (talvez o evento-alvo tenha acontecido antes dos resultados serem obtidos). Eles foram mantidos para que possamos expandir este conjunto de dados em outros resultados posteriormente.
+Tomou-se o cuidado para NÃO usar os dados quando a variável alvo estiver presente, pois não se sabe a ordem do evento (talvez o evento-alvo tenha acontecido antes dos resultados serem obtidos). Eles foram mantidos para que possamos expandir este conjunto de dados em outros resultados posteriormente.
 
 Exemplos:
 
@@ -44,8 +39,7 @@ Exemplos:
 
 ![image](https://user-images.githubusercontent.com/82055876/131426690-68ad6e61-2b5b-4f87-8e6b-aeac936ed077.png)
 
-
-### Dataset
+### Anonimato
 
 Este conjunto de dados contém dados anônimos do Hospital Sírio-Libanês, localizado em São Paulo e Brasília. Todos os dados foram anonimizados seguindo as melhores práticas e recomendações internacionais. Os dados foram limpos e dimensionados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
 
@@ -63,7 +57,7 @@ No total são 54 características, expandidas quando pertinentes à média, medi
 
 ---
 ## 3-Projeto
-O objetivo do projeto é, conforme proposto pelo citado hospital, montar uma máquina preditiva com a finalidade de auxiliar na previsão de quais pacientes necessitarão ser encaminhados à unidade de terapia intensiva (UTI) e, dessa forma, contribuir com o manejamento de leitos de UTI do hospital, conforme a necessidade, sendo estas previsões realizadas a partir dos dados clínicos individuais disponíveis de alguns pacientes. É importante mencionar que o anonimato destes pacientes foi garantido pelo hospital.
+O objetivo do projeto proposto pelo citado hospital é, então, montar uma máquina preditiva com a finalidade de auxiliar na previsão de quais pacientes necessitarão ser encaminhados à unidade de terapia intensiva (UTI) e, dessa forma, contribuir com o manejamento de leitos de UTI do hospital, conforme a necessidade, sendo estas previsões realizadas a partir dos dados clínicos individuais disponíveis de diversos pacientes. É importante ressaltar novamente que o anonimato destes pacientes foi garantido pelo hospital.
 
 Basicamente, conforme disponibilizado nas tarefas (tasks) do Kaggle, seria:
 
