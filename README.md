@@ -13,38 +13,30 @@ Conforme exposto no próprio notebook, inicialmente o que nos motiva a realizar 
 ---
 ## 2-Dados
 
-![image](https://user-images.githubusercontent.com/82055876/131427160-89a394ef-6de6-45d1-8177-e7adb35c52ce.png)
-
 Os dados para este projeto foram obtidos no endereço https://www.kaggle.com/S%C3%ADrio-Libanes/covid19, tendo sido disponibilizados pelo Hospital Sirio Libanes, por meio da plataforma KAGGLE.
 
-O gráfico abaixo ilustra a urgente necessidade de "achatamento da curva", uma das razões para a elaboração e implementação deste projeto, a fim de evitar o colapso do sistema de saúde. Os dados individuais de pacientes, disponibilizados pelo hospital, serão utilizados em detrimento de dados epidemiológicos e populacionais, como normalmente empregados para avaliações e estimativas acerca da sobrecarga do sistema.
+![image](https://user-images.githubusercontent.com/82055876/131427160-89a394ef-6de6-45d1-8177-e7adb35c52ce.png)
+
+Com relação a relevância da proposta, o gráfico abaixo ilustra a urgente necessidade de "achatamento da curva", uma das razões para a elaboração e implementação deste projeto, a fim de evitar o colapso do sistema de saúde. Os dados individuais de pacientes, disponibilizados pelo hospital, serão utilizados em detrimento de dados epidemiológicos e populacionais, como normalmente são empregados para avaliações e estimativas acerca da sobrecarga do sistema.
 
 ![image](https://user-images.githubusercontent.com/82055876/131425878-52eca3fe-3aa6-4fbf-b6f2-fedd1ea6cab4.png)
 
 Seguem outras informações obtidas acerca do *dataset*, disponibilizadas no site KAGGLE:
 
-### Os Dados
+Saída: ICU (que significa UTI) é a variável alvo.
 
-Saída de rótulo
-A UTI deve ser considerada, como a primeira versão deste conjunto de dados, a variável alvo.
+Conceito de janela (window): foi tomado o cuidado de incluir cenários da vida real nos eventos e dados disponíveis.
 
-### Conceito de janela
-
-Tivemos o cuidado de incluir cenários da vida real com janela de eventos e dados disponíveis.
-Os dados foram obtidos e agrupados
+Os dados foram obtidos e agrupados por:
 
 * paciente
-- encontro
-paciente - agregado por janelas em ordem cronológica
+- encontro com paciente 
+- agregado por janelas em ordem cronológica, conforme segue:
 
-Janela	Descrição
-0-2 =	De 0 a 2 horas de entrada
-2-4 =	De 2 a 4 horas de entrada
-4-6 =	De 4 a 6 horas de entrada
-6-12	= Das 6 às 12 horas de entrada
-Acima de 12 =	Acima de 12 horas após a admissão
+![image](https://user-images.githubusercontent.com/82055876/131428441-2b1cc541-d670-4ad6-afb0-14b3bb0f63ed.png)
 
-* Cuidado para NÃO usar os dados quando a variável alvo estiver presente, pois não se sabe a ordem do evento (talvez o evento-alvo tenha acontecido antes dos resultados serem obtidos). Eles foram mantidos lá para que possamos crescer este conjunto de dados em outros resultados posteriormente.
+
+* Tomou-se o cuidado para NÃO usar os dados quando a variável alvo estiver presente, pois não se sabe a ordem do evento (talvez o evento-alvo tenha acontecido antes dos resultados serem obtidos). Eles foram mantidos para que possamos expandir este conjunto de dados em outros resultados posteriormente.
 
 Exemplos:
 
@@ -55,13 +47,12 @@ Exemplos:
 
 ### Dataset
 
-Este conjunto de dados contém dados anonimizados do Hospital Sírio-Libanês, São Paulo e Brasília. Todos os dados foram anonimizados seguindo as melhores práticas e recomendações internacionais.
-Os dados foram limpos e dimensionados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
+Este conjunto de dados contém dados anônimos do Hospital Sírio-Libanês, localizado em São Paulo e Brasília. Todos os dados foram anonimizados seguindo as melhores práticas e recomendações internacionais. Os dados foram limpos e dimensionados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
 
 ### Dados disponíveis
 
 - Informações demográficas do paciente (03)
-- Doenças agrupadas anteriores do paciente (09)
+- Grupo de doenças anteriores do paciente (09)
 - Resultados sanguíneos (36)
 - Sinais vitais (06)
 
@@ -83,21 +74,21 @@ O presente projeto foi dividido conforme abaixo, a fim de faciliar a análise e 
 
 * Importação dos dados;
 * Análise exploratória dos dados;
-* Implementação de modelos de Machine Learning (com dados originais e com dados selecionados);
+* Implementação de modelos de Machine Learning (com dados originais e com dados ajustados);
 * Conclusão
 * Referências
 
-Importante mencionar que os modelos foram testados de diferentes formas, a partir de técnicas e métodos diversos, com a finalidade de verificar o que apresentasse a melhor acurácia e que proporcionasse maior eficiência. Foi por esse motivo também que, na 2ª Fase do projeto, optamos por eliminar diversas colunas que possuíam alta correlação. abrangendo assim diversas formas de testes, inclusive com a modificação nos dados.
+Importante mencionar que os modelos foram testados de diferentes formas, a partir de técnicas e métodos diversos, com a finalidade de verificar o que apresentasse a melhor acurácia e que proporcionasse maior eficiência. Foi por esse motivo também que, na 2ª Fase do projeto, optamos por eliminar diversas colunas que possuíam alta correlação, abrangendo assim diversas formas de testes, inclusive com a modificação nos dados.
 
-No decorrer do projeto há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das ações tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link https://github.com/anderboni/Projeto_FINAL_Bootcamp_Data_Science/blob/main/Projeto_FINAL.ipynb
+No decorrer do estudo há outras etapas que fizeram parte do projeto, com respectivos comentários acerca das ações tomadas e conclusões obtidas ao longo do notebook, o qual pode ser acessado por meio do link https://github.com/anderboni/Projeto_FINAL_Bootcamp_Data_Science/blob/main/Projeto_FINAL.ipynb
 
 ---
 ## 4-Conclusões
 
-As conclusões que obtivemos a partir da análise dos dados serão apresentadas ao final do notebook, entretanto convém advertir que são parciais. Outros dados e estudos posteriores deverão ser realizados para que seja possível elucidar de forma mais ampla a questão.
+As conclusões que obtivemos a partir da análise dos dados são apresentadas ao final do notebook, entretanto convém advertir que são parciais. Outros estudos posteriores deverão ser realizados para que seja possível aprimorar os modelos e ampliar a eficácia e aplicabilidade dos mesmos.
 
 ---
 ## 5-Continuidade e Considerações Finais
 
-O presente projeto ainda carece de análises mais profundas e mantêm-se em aberto para futuras alterações.
+O presente projeto ainda carece de análises mais profundas e mantêm-se em aberto para futuras alterações e aprimoramento.
 
